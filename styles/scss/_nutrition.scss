@@ -1,0 +1,724 @@
+#nutrition{
+
+*{
+    padding: 0;
+    margin: 0;
+}
+*,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+
+        .clearfix:before,
+        .clearfix:after {
+            content: " ";
+            display: table;
+        }
+        .clearfix:after {
+            clear:both;
+        }
+
+/* GENERAL */ 
+
+
+
+h2{
+    color: black;
+    font-size: 1.2em;
+    font-family: 'akzidenzgrotesk-bold-webfont';
+}
+h3{
+    color: black;
+    font-size: 210%;
+    font-family: 'akzidenzgrotesk-bold-webfont';
+}
+h1,h4{
+    font-family: 'akzidenzgrotesk-bold-webfont';
+}
+p{
+    color: black;
+    font-size: 1em;
+    font-family: 'akzidenzgrotesk-light-webfont';
+}
+figcaption p {
+    width: 10%;
+    position: absolute;
+    text-align: center;
+  @media screen and (max-width: 1000Px) {
+    width: 14%;
+  }
+  @media screen and (max-width: 770Px) {
+    width: 16%;
+  }
+}
+/*SECTION 1 */
+
+.cover3{
+    width:100%;
+    margin-top:3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dessus{
+    position:absolute;
+    margin: 15% 0 0 12%;
+    font-size: 360%;
+    color: #282d27;
+}
+.dessus2{
+    position: absolute;
+    color: #282d27;
+    font-size: 500%;
+    margin: 15% 0 0 12%;
+    font-family: sans-serif;
+
+}
+.composer{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 0 0 0 9%;
+}
+.text{
+    width: 80%;
+    text-align:right;
+    margin: 32% 3% 0 auto;
+}
+.adopter{
+    width: 20%;
+    float:left;
+    background: #00b111;
+    text-align: center;
+    margin: 3% 0 0 0;
+    .rectangle{
+        width: 55%;
+        margin-bottom: 8%;
+    }
+    .graine{
+        width: 40%;
+        margin: 0 auto 10%;
+    }
+}
+    .photo, .photo2{
+        position: absolute;
+
+        font-size: 2em;
+    }
+    .photo{
+        margin-top:5%;
+    }
+    .photo2{
+        margin-top:10%;
+    }
+.text3{
+    font-size: 1.4em;
+    color:white;
+    padding: 20% 0 15% 0;
+    font-family:'akzidenzgrotesk-bold-webfont';
+}
+.graine{
+    margin: 7% 0 4% 0;
+}
+.portion{
+    width: 35%;
+    float: left;
+    text-align: center;
+    margin: 0 3% 2% 0;
+}
+
+.text2{
+    width: 70%;
+    text-align:left;
+    margin-top:30%;
+    margin-left: 3%
+}
+
+/* SECTION 2 */ 
+
+.lipide, .zest{
+    background: #E9E9E9;
+}
+.zeste{
+    margin: 3% auto;
+    text-align: center;
+    padding: 3% 0;
+    font-size: 1.2em;
+}
+.lipid {
+    margin: 0 auto 2%;
+    text-align:center;
+    padding: 3% 0;
+    font-size: 1.2em;
+}
+/*SECTION 3  PERSONNE*/
+.homme{
+    margin: 0;
+}
+.homme1{
+    margin: 5% 0 0 1%;
+    float: left;
+    padding-right: 2%;
+}
+.balance figure img {
+    width:25%;
+    margin-top: 3%;
+}
+
+    .premier1{
+        margin: 4.5% 0% 0 0%;
+        display: flex;
+
+        justify-content: center;
+        img {
+            width: 100%;
+        }
+    }
+.project{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.flex{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+}
+.project2{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.test {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/*SECTION */ 
+
+
+.balance{
+    margin: 6% 0 3% 43%;
+} 
+.inline-box{
+    display:inline-block;
+    text-align:center;
+    flex: 0.3;
+}
+
+.el{
+    display:inline-block;
+}
+
+
+/* SECTION DIFFERENCE*/
+.premier1{
+    margin: 4.5% 0% 0 0%;
+    display: flex;
+}
+
+.color{
+    color: #00B111;
+}
+
+
+
+/* SECTION ROND */
+.uno{
+    width: 20%;
+    float: left;
+    background: url(../../img-content/rond.png) no-repeat;
+    background-size: contain;
+    margin: 0% 0 0 10%; 
+}
+
+.pro{   
+    text-align: center;
+    margin: 50% 0 0 0%;
+    width: 100%;
+    position: relative;
+}
+.inte{
+    color: white;
+    margin: 35% 0.6% 0 4%;
+    text-align: center;
+    font-size: 200%;
+}
+.inte1{
+    text-align: center;
+    margin: 4% 0% 0 4%;
+    color: white;
+    font-size: 130%;
+}
+
+/* BOUTON */
+.myButton {
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:'akzidenzgrotesk-bold-webfont';
+    font-size:26px;
+    font-weight:bold;
+    background: #00b111;
+    padding:1% 4%;
+    text-decoration:none;
+    position: absolute;
+    margin:10% 0 0 25% ;
+}
+
+
+.content-clear {
+    display: flex;
+    flex-direction: column;
+}
+
+    .cover1{
+        margin-top:4% ;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+.homme img {
+    width: 90%;
+}
+footer {
+        background-color: #E9E9E9;
+        margin-top: 2%;
+}
+h5 {
+    margin-top: 2%;
+    font-family: 'akzidenzgrotesk-light-webfont';
+    color: #00b111;
+    font-size: 80%;
+    margin-bottom: 0px;
+}
+.txtfoot {
+    font-family: 'akzidenzgrotesk-light-webfont';
+    font-size: 100%;
+    color:  #818181;
+}
+li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+}
+li.lifoot {
+    width: 20%;
+    text-align: center;
+    margin-left:27%;
+    margin-right: 5%;
+}
+.imgfoot {
+    width: 10%;
+    margin-left: 1%;
+}
+.mentions {
+    width: 98%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.global {
+    margin-left: 9%;
+}
+
+
+
+
+
+    /* RESPONSIVE */ 
+
+
+    @media screen and (max-width:800px){
+
+  .uno{
+            width: 28%;
+            margin: 0 auto;
+            margin-left: 4%;
+        }
+    }
+
+
+    @media screen and (max-width:790px) and (min-width:600px ){
+
+    h5 {
+        font-size: 100%;
+    }
+    ul {
+        font-size: 100%;
+    }
+    li {
+        margin-left: -2%;
+    }
+    li.lifoot {
+        width: 20%;
+        margin-left:23%;
+        margin-right: 13%;
+    }
+    .imgfoot {
+        width: 10%;
+        margin-left: 2%;
+    }
+    }
+
+
+
+    @media screen and (max-width:768px) and (min-width:481px ){
+
+    main {
+        width: 100%;
+    }
+    section {
+        float: none;
+        width: auto;
+        margin: 0 0 0 0;    
+    }
+    /* SEPARER EN 3 */
+
+    .dessus{
+        margin: 15% 0 0 10%;
+        font-size: 2em;
+    }
+    .dessus2{
+        font-size: 360%;
+        margin: 15% 0 0 10%;
+    }
+    .composer{
+        width: 33%;
+        margin: 0 0 0 6%;
+    }
+    .text{
+      width: 100%;
+      font-size: 88%;
+      padding-right: 4%;
+    }
+    .adopter{
+        width: 23%;
+        margin: 4% 0 0 0;
+    }
+    .text3{
+        padding: 23% 0 16% 0;
+        font-size: 90%;
+    }
+    .graine{
+        margin: 7% 0 10% 0;
+    }
+    .portion{
+        width: 35%;
+        margin: 0 3% 5% 0;
+    }
+    .text2{
+        width: 60%;
+    }
+    .text2 p {
+        font-size: 88%;
+    }
+    .text2 h2{
+        font-size:90%;
+    }
+    /* ZESTE */ 
+
+    .lipid h2, .zest h2{
+        font-size: 100%;
+        margin-bottom: 5%;
+    }
+    /* BALANCE */ 
+
+    .homme img {
+        width: 70%
+    }
+    figcaption p {
+        width: 18%;
+    }
+    .balance{
+        margin: 20% 0 3% 46%;
+    } 
+    .balance figure img {
+        margin-top: -15%;
+    }
+    .inline-box{
+        flex: 0.5;
+    }
+    .el {
+        font-size: 10Px;
+    }
+    .inline-box img {
+        width: 1%;
+    }
+
+
+    /*ROND */
+    /* SECTION ROND */
+    .uno{
+        width: 23%;
+        margin: 2% 0 0 8%;
+    }
+
+    .pro{
+        margin: 50% 0 0 0%;
+        width: 100%;
+    }
+    .inte{
+        margin: 30% 0.6% 0 4%;
+        font-size: 100%;
+    }
+
+
+    /* BOUTON */
+
+    .myButton{
+        margin:10% 0 0 27% ;
+        font-size:15px;
+
+    }
+
+
+    }
+
+
+    @media only screen and (max-width: 768px) {
+
+    .photo, .photo2{
+        font-size: 1.6em;
+    }
+    .photo{
+        margin-top:8%;
+    }
+    .photo2{
+        margin-top:15%;
+    }
+        .premier1 img {
+        height: 206px;
+    }
+            /* SECTION ROND */
+
+    .pro{
+        margin: 42% 0 0 0%;
+    }
+    .inte{
+            font-size: 1.2em;
+
+    }
+    .inte1{
+        margin: 4% 0% 0 4%;
+        font-size: 130%;
+    }
+    }
+
+    @media screen and (max-width:600px){
+        .uno{
+            margin: 0 auto;
+            margin-left: 34%;
+        }
+        .pro {
+            margin: 41% 0 21% -16%;
+            width: 132%;
+            font-size: 0.8em;
+        }
+    .premier1 img {
+        height: 200px;
+    }
+    .inte1 {
+        font-size: 100%;
+        margin-left: 0;
+    }
+    h5 {
+        font-size: 70%;
+    }
+    ul {
+        font-size: 70%;
+    }
+    li {
+        margin-left: 40%;
+    }
+    li.lifoot {
+        margin-left:36%;
+    }
+    .im{
+        margin-left: -4%;
+        margin-top:2%;
+    }
+    .imgfoot {
+        width: 8%;
+        margin-left:0%;
+    }
+    .mentions{
+        width: 97%;
+        margin-left: -2%;
+        font-size: 8px;
+    }
+        .kcal{
+            font-size: 0.7em;
+        }
+
+}
+    @media screen and (max-width: 600px){
+      .composer {
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+        .text{
+          text-align: center;
+          margin: 4% auto;
+        }
+      }
+      .adopter{
+        width: 30%;
+        margin: 0 auto;
+        float: none;
+        p{
+            line-height: 145%;
+          padding: 13% 0 12% 0;
+          letter-spacing: 2px;
+        }
+      }
+      .portion{
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+        .text2{
+          text-align: center;
+          width: 100%;
+          margin: 0 auto;
+          h2{
+            margin-bottom:2%;
+          }
+        }
+      }
+    }
+
+    @media only screen and (max-width: 540px) {
+    h1{
+        font-size: 19px;
+    }
+    .myButton{
+        font-size: 18px;
+    }
+
+    }
+
+
+
+    @media screen and (max-width:480px){
+    
+
+    main {
+        width: 100%;
+    }
+
+    section {
+        float: none;
+        width: auto;
+        margin: 0 0 0 0;
+    }
+
+    /* SEPARER EN 3 */
+
+    .dessus{
+        margin: 18% 0 0 10%;
+        font-size: 1.1em;
+    }
+    .dessus2{
+        font-size: 0.9em;
+        margin: 24% 0 0 10%;
+    }
+    .text{
+        width: 100%;
+        font-size: 0.8em;
+    }
+    .adopter{
+        width: 37%;
+    }
+    .text3{
+        padding: 28% 0 20% 0;
+    }
+    .graine{
+        margin: 8% 0 13% 0;
+    }
+    .portion{
+        width: 65%;
+    }
+    .text2{
+        width: 90%;
+    }
+    .text2 p {
+        font-size: 0.8em;
+    }
+    .text2 h2{
+        font-size:0.8em;
+    }
+    .text3 {
+        font-size: 10px;
+    }
+    /* ZESTE */ 
+
+    .lipide h2, .zest h2{
+        font-size: 65%;
+        margin-bottom: 5%;
+    }
+    /* BALANCE */ 
+    .homme img {
+        width: 65%
+    }
+    figcaption p {
+        width: 13%;
+    }
+    .balance{
+        margin: 17% 0 3% 43%;
+    } 
+    .balance figure img{
+        margin-top: -10%;
+    }
+    .inline-box{
+        flex: 0.5;
+    }
+    .el {
+        font-size: 10Px;
+    }
+    .inline-box img {
+        width: 1%;
+    }
+    /* DIFFERENCE */
+
+
+    .premier1 img {
+        height: 110px;
+    }
+        .photo, .photo2{
+            font-size: 1em;
+        }
+
+            /* SECTION ROND */
+    .pro{
+        margin: 31% 0 21% -16%;
+        width: 132%;
+        font-size: 0.8em;
+    }
+
+
+    /* BOUTON */
+
+    .myButton{
+        margin:12% 0 0 30% ;
+        font-size:12px;
+    }
+
+    }
+
+    @media only screen and (max-width: 540px) {
+        ul {
+            font-size: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 450px){
+
+
+    #menu h1 {
+        font-size: 10px;
+    }
+    }
+
+}

@@ -1,0 +1,87 @@
+#new-connect {
+  text-align: center;
+  margin: 10% 0 3%;
+
+  @media screen and (max-width: 800px) {
+    margin: 15% 0 3%;
+  }
+  h1 {
+    display: inline-block;
+    padding: 1% 2%;
+    font-family: 'akzidenzgrotesk-bold-webfont';
+    font-size: 2.5em;
+    color: #222;
+    border-bottom: 5px solid #00B111;
+    @media screen and (max-width: 800px) {
+      font-size: 2em;
+    }
+  }
+  .mt{
+    margin: 6% 0 14%;
+
+    @media screen and (max-width: 900px) {
+      margin: 6% 0 20%;
+    }
+    @media screen and (max-width: 600px) {
+      margin: 6% 0 25%;
+    }
+  }
+  .info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  div label {
+    font-size: 17px;
+    font-family: 'akzidenzgrotesk-light-webfont';
+    color: #818181;
+    margin: 7% 0;
+    justify-content: space-between;
+    display: flex;
+  }
+  #ml {
+    margin-left: 6%;
+  }
+  div input[type="text"] {
+    justify-content: space-between;
+    display: flex;
+  }
+
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 33px;
+  }
+  input[type="text"]::placeholder {
+    font-size: 17px;
+    font-family: 'akzidenzgrotesk-light-webfont';
+    color: #dcdcdc;
+  }
+  .memory {
+    display: flex;
+    justify-content: initial;
+    align-items: baseline;
+  }
+  #cbox {
+    width: 9%;
+    cursor: pointer;
+  }
+  a{
+    color: #00B111;
+    font-size: 14px;
+    text-decoration: none;
+
+  }
+  #inscription {
+    background: #00B111;
+    border: 1px solid #00B111;
+    text-align: center;
+    color: white;
+    padding: 3.6% 22%;
+    cursor: pointer;
+    font-family: 'akzidenzgrotesk-bold-webfont';
+    font-size: 20px;
+    width: 100%;
+  }
+}

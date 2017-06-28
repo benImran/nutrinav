@@ -1,0 +1,283 @@
+#index {
+
+  .bghome {
+    background: url("../../img-content/salade.jpg");
+    width: 100%;
+    background-size: cover;
+    @media screen and (max-width: 600px) {
+      margin-top:7%;
+      height:50px;
+    }
+  }
+  .margin{
+    margin:0 auto;
+  }
+  .button.is-primary {
+    background-color: #00B111;
+  }
+
+  .button.is-primary:hover {
+    background-color: #00B111;
+
+  }
+  .padding{
+    padding-top: 5%;
+  }
+  .btnhome {
+    margin: 2% auto 0;
+    left: 51%;
+    transform: translateX(-50%);
+    font-family:'akzidenzgrotesk-bold-webfont';
+
+  }
+  .lunch2{
+    background: #00B111;
+    float: left;
+    font-family: 'akzidenzgrotesk-bold-webfont';
+  }
+  .hhome {
+    padding-top: 2%;
+    font-size:2em;
+    @media screen and (max-width: 800px){
+      font-size: 1.5em;
+    }
+    @media screen and (max-width: 550px){
+      font-size: 1em;
+    }
+  }
+  .picto {
+    width: 58%;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
+  .herode {
+    background: url("../../img-content/wok.png");
+    background-size: cover;
+    width: 100%;
+  }
+  .herodebis {
+    background: url("../../img-content/legumes.png");
+    width: 100%;
+    background-size: cover;
+    @media screen and (max-width: 800px) {
+      margin-top:7%;
+      height:150px;
+    }
+    @media screen and (max-width: 600px) {
+      margin-top:7%;
+      height:50px;
+    }
+  }
+  .hertroi {
+    background-color:  #00B111;
+  }
+
+  .imgbox {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .pproduit {
+    padding-top: 5%;
+    font-size: 19px;
+    font-family:'akzidenzgrotesk-light-webfont';
+    text-align: center;
+
+
+    @media screen and (max-width: 800px) {
+      font-size: 15px;
+      -webkit-margin-before: -1.6em;
+    }
+
+  }
+
+  .tab-wraper {
+    margin: 0 auto;
+  }
+
+  .tab-wraper div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button.is-green.is-active{
+    background-color: #00B111;
+    color: white;
+  }
+
+  .button.is-green {
+
+
+    width: 19%;
+    margin-left: 1%;
+    font-family:'akzidenzgrotesk-bold-webfont';
+
+    @media screen and (max-width: 800px) {
+      width:30%;
+    }
+    @media screen and (max-width: 600px) {
+      width:40%;
+    }
+  }
+  .barre {
+    width: 1px;
+    background-color: #00B111;
+    margin: 0 auto;
+    height: 1100px;
+    float: left;
+    position: relative;
+    left: 4%;
+    margin-bottom: 10%;
+    @media screen and (max-width: 1160px) {
+      height: 900px;
+
+    }
+      @media screen and (max-width: 900px) {
+        height: 750px;
+
+      }
+  }
+  .box-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .is-grey {
+    background-color: #f4f4f4;
+  }
+
+  .is-green {
+    color: #00B111;
+  }
+
+  .lunch {
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 9%;
+    background-color:  #00B111;
+    font-family: 'akzidenzgrotesk-bold-webfont';
+  }
+
+  .herokatre {
+    background: url("../../img-content/paysage.jpg");
+    background-size: cover;
+    height: 400px;
+
+    @media screen and (max-width: 800px) {
+      height: 245px;
+    }
+  }
+
+  .titlelast {
+    font-size: 1.7em;
+    color: white;
+    @media screen and (max-width: 800px) {
+     font-size: 1.4em;
+    }
+    @media screen and (max-width: 550px) {
+      font-size: 1em;
+    }
+  }
+
+  .inbot {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .butbot {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    color: white;
+    margin-top: 2%;
+  }
+
+  .butbot:hover {
+    color: white;
+  }
+
+  .see {
+    display: block;
+  }
+  .notsee {
+    display: none;
+  }
+  .divtabs {
+    width: 45%;
+  }
+
+  .ptabs {
+    padding: 20% 0;
+    font-family: akzidenzgrotesk-light-webfont;
+    @media screen and (max-width: 800px) {
+      padding: 10% 0;
+      font-size: 0.8em;
+    }
+
+  }
+
+  .imgtabs {
+    width: 55%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .location {
+    width: 20px;
+    transform: translateY(30%);
+  }
+  .color{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'akzidenzgrotesk-light-webfont';
+    @media screen and (max-width: 550px) {
+      font-size: 1.2em;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .btnhome {
+      margin: 3% auto 0;
+      left: 51%;
+      top: 90%;
+      transform: translateX(-50%);
+      position: relative;
+    }
+
+    .pngmoch {
+      float: left;
+      width: 25%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .columns{
+      display: flex;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .pngmoch {
+      float: none;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .picto{
+      width:42%;
+    }
+    .columns{
+      display: block;
+    }
+
+  }
+
+}

@@ -1,0 +1,160 @@
+var products = {
+
+    'laitue' : {
+      'cal' : 7.5,
+      'lip' : 0.1,
+      'ags' : 0,
+      'cho' : 0,
+      'sod' : 14,
+      'pot' : 97,
+      'glu' : 1.45,
+      'fib' : 0.7,
+      'suc' : 0.4,
+      'pro' : 0.7
+    },
+    'pates' : {
+      'cal' : 59,
+      'lip' : 2,
+      'ags' : 1.25,
+      'cho' : 6,
+      'sod' : 124,
+      'pot' : 61,
+      'glu' : 7,
+      'fib' : 1.35,
+      'suc' : 0.95,
+      'pro' : 3
+    },
+    'riz' : {
+      'cal' : 65,
+      'lip' : 0.15,
+      'ags' : 0.05,
+      'cho' : 0,
+      'sod' : 0.5,
+      'pot' : 17.5,
+      'glu' : 14,
+      'fib' : 0.2,
+      'suc' : 0.05,
+      'pro' : 1.35
+    },
+    'avocat' : {
+      'cal' : 80,
+      'lip' : 7,
+      'ags' : 1,
+      'cho' : 0,
+      'sod' : 3.5,
+      'pot' : 245,
+      'glu' : 4.25,
+      'fib' : 3.35,
+      'suc' : 0.35,
+      'pro' : 1
+    },
+    'concombre' : {
+      'cal' : 8,
+      'lip' : 0.05,
+      'ags' : 0,
+      'cho' : 0,
+      'sod' : 1,
+      'pot' : 73.5,
+      'glu' : 1.8,
+      'fib' : 0.25,
+      'suc' : 0.85,
+      'pro' : 0.35
+    },
+    'carotte' : {
+      'cal' : 20,
+      'lip' : 0.1,
+      'ags' : 0,
+      'cho' : 0,
+      'sod' : 34.5,
+      'pot' : 160,
+      'glu' : 5,
+      'fib' : 1.4,
+      'suc' : 2.35,
+      'pro' : 0.45
+    },
+    'champignons' : {
+      'cal' : 11,
+      'lip' : 0.15,
+      'ags' : 0.05,
+      'cho' : 0,
+      'sod' : 2.5,
+      'pot' : 159,
+      'glu' : 1.56,
+      'fib' : 0.5,
+      'suc' : 1,
+      'pro' : 1.5
+    },
+    'tomate' : {
+      'cal' : 9,
+      'lip' : 0.1,
+      'ags' : 0,
+      'cho' : 0,
+      'sod' : 2.5,
+      'pot' : 118,
+      'glu' : 1.54,
+      'fib' : 0.8,
+      'suc' : 1.3,
+      'pro' : 0.45
+    },
+    'navet' : {
+      'cal' : 14,
+      'lip' : 0.05,
+      'ags' : 0,
+      'cho' : 0,
+      'sod' : 34,
+      'pot' : 95,
+      'glu' : 3,
+      'fib' : 0.9,
+      'suc' : 1.4,
+      'pro' : 0.45
+    },
+    'poulet' : {
+      'cal' : 118,
+      'lip' : 7,
+      'ags' : 1.9,
+      'cho' : 44,
+      'sod' : 82,
+      'pot' : 111.5,
+      'glu' : 0,
+      'fib' : 0,
+      'suc' : 0,
+      'pro' : 13.5
+    },
+    'poisson' : {
+      'cal' : 57.5,
+      'lip' : 0.8,
+      'ags' : 0.1,
+      'cho' : 0.5,
+      'sod' : 150,
+      'pot' : 20,
+      'glu' : 0,
+      'fib' : 0,
+      'suc' : 0,
+      'pro' : 9
+    },
+    'oeuf' : {
+      'cal' : 75,
+      'lip' : 5.5,
+      'ags' : 1.75,
+      'cho' : 161,
+      'sod' : 62,
+      'pot' : 63,
+      'glu' : 0.55,
+      'fib' : 0,
+      'suc' : 0.55,
+      'pro' : 6.5
+    },
+    'boeuf' : {
+      'cal' : 166,
+      'lip' : 15,
+      'ags' : 5.5,
+      'cho' : 39,
+      'sod' : 33.5,
+      'pot' : 109,
+      'glu' : 0,
+      'fib' : 0,
+      'suc' : 0,
+      'pro' : 14
+    }
+
+}

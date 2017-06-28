@@ -1,0 +1,52 @@
+#information{
+  width: 80%;
+  margin: 0 auto;
+  h1{
+    text-transform: uppercase;
+    font-size: 23px;
+    text-align: center;
+    margin: 11% auto 2% auto;
+    font-family: 'akzidenzgrotesk-bold-webfont';
+
+    @media screen and (max-width: 900px){
+      margin-top:14%;
+    }
+    @media screen and (max-width: 600px){
+      margin-top:18%;
+    }
+  }
+  h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'akzidenzgrotesk-bold-webfont';
+    @media screen and (max-width: 600px){
+      font-size: 15px;
+    }
+  }
+  p{
+    font-family: 'akzidenzgrotesk-light-webfont';
+    font-size: 14px;
+  }
+  button{
+    display: flex;
+    margin: 3% auto;
+    padding: 1% 2%;
+    border-style: none;
+    background: #00B111;
+    color: white;
+    border-radius: 10px;
+    font-family: 'akzidenzgrotesk-bold-webfont';
+    font-size: 14px;
+  }
+  a{
+    text-decoration: none;
+    color:white;
+  }
+  .green{
+    color: #00B111;
+  }
+  div{
+    text-align: center;
+
+  }
+}
